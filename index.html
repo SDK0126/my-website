@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>株の入門サイト | Stock Investing 101</title>
+  <meta name="description" content="株式投資の基礎が1ページで分かる入門サイト。PER・PBR・配当利回りなどの基本用語や始め方をやさしく解説。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- ================= Header & Navigation ================= -->
+  <header class="site-header">
+    <div class="container flex between center-y">
+      <a class="logo" href="/"> サイトトップへ</a>
+
+      <!-- CSS-only mobile nav toggle -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="メニューの切り替え">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true" title="メニュー">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav">
+        <a href="#about">はじめに</a>
+        <a href="#howto">始め方</a>
+        <a href="#metrics">指標</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= Hero ================= -->
+  <section class="hero">
+    <div class="container grid-2">
+      <div class="hero-text">
+        <h1>株式投資、<br class="md-hide">今日からはじめよう。</h1>
+        <p class="lead">むずかしい専門用語は最小限。リスクと向き合いながら、<br class="md-hide">着実に資産形成するための基礎をまとめました。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#howto">5分でわかる始め方</a>
+          <a class="btn ghost" href="#metrics">基礎指標を学ぶ</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card">
+          <h3>このサイトで学べること</h3>
+          <ul class="checklist">
+            <li>株式投資の仕組み</li>
+            <li>証券口座の開設ステップ</li>
+            <li>PER / PBR / 配当利回り</li>
+            <li>はじめの一歩のリスク管理</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Intro / About ================= -->
+  <section id="about" class="section">
+    <div class="container narrow">
+      <h2>株ってなに？</h2>
+      <p>株式は、<strong>企業のオーナー権の一部</strong>です。株を買うことは、その企業の一部を所有すること。企業が利益を出せば、株価の上昇や配当金で投資家に還元される可能性があります。</p>
+      <div class="note">※ 本サイトは一般的な情報の提供を目的としており、特定の銘柄の売買を推奨するものではありません。</div>
+    </div>
+  </section>
+
+  <!-- ================= How to start ================= -->
+  <section id="howto" class="section alt">
+    <div class="container">
+      <h2>はじめ方（3ステップ）</h2>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>1. 証券口座をつくる</h3>
+          <p>ネット証券で口座を開設し、マイナンバーと本人確認を完了します。入金方法も確認しておきましょう。</p>
+        </article>
+        <article class="card">
+          <h3>2. 小さく買ってみる</h3>
+          <p>最初は少額・分散で。インデックスや高財務の大型株など、リスクの低い選択から慣れていきます。</p>
+        </article>
+        <article class="card">
+          <h3>3. ルールを決める</h3>
+          <p>投資金額、リバランスの頻度、損切り/利確の条件など、<strong>事前にルール化</strong>して感情に流されない工夫を。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Core Metrics ================= -->
+  <section id="metrics" class="section">
+    <div class="container">
+      <h2>基礎指標（まずはこの3つ）</h2>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>PER（株価収益率）</h3>
+          <p>株価が利益の何倍か。<code>株価 ÷ 1株あたり利益(EPS)</code>。低いほど割安とされますが、成長性次第です。</p>
+        </article>
+        <article class="card">
+          <h3>PBR（株価純資産倍率）</h3>
+          <p>株価が1株あたり純資産の何倍か。<code>株価 ÷ 1株あたり純資産(BPS)</code>。1倍割れは資産面で割安の目安。</p>
+        </article>
+        <article class="card">
+          <h3>配当利回り</h3>
+          <p><code>1株あたり配当 ÷ 株価</code>。高すぎる場合は減配リスクも。財務や利益の持続性も確認しましょう。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq" class="section alt">
+    <div class="container narrow">
+      <h2>よくある質問</h2>
+
+      <details class="faq">
+        <summary>まとまった資金がなくても始められますか？</summary>
+        <p>はい。つみたて投資や単元未満株の活用で、小さく始めることができます。</p>
+      </details>
+
+      <details class="faq">
+        <summary>初心者におすすめの銘柄は？</summary>
+        <p>特定銘柄の推奨はしませんが、分散の効いた投資信託やETFなどから学ぶのがおすすめです。</p>
+      </details>
+
+      <details class="faq">
+        <summary>損しないためのコツは？</summary>
+        <p>リスクをゼロにはできません。<strong>分散・長期・ルール化</strong>を基本に、無理のない金額で継続しましょう。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="container flex between center-y wrap">
+      <p>© <span id="year"></span> Stock Investing 101</p>
+      <nav class="footer-nav">
+        <a href="#about">はじめに</a>
+        <a href="#howto">始め方</a>
+        <a href="#metrics">指標</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // 年の自動更新（JSなしでも問題ないが、あると便利）
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
